@@ -60,7 +60,7 @@ function initialize() {
 	var mapOptions = {
 		center: new AMap.LngLat(CenterLon, CenterLat),
 		zoom: ZoomLvl,
-		mapStyle: 'amap://styles/whitesmoke'
+		mapStyle: 'amap://styles/fresh'
 	};
 
 	aMap = new AMap.Map('map_canvas', mapOptions);
