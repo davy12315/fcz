@@ -55,15 +55,15 @@ var planeObject = {
 	funcGetIcon	: function() {
 		const prefix = 'https://file.veryzhun.com/buckets/adsb-dm/keys/';
 
-		this.markerColor = '20200319-105605-zuf2o7rth4mrx6si.png';
+		this.markerColor = '20200319-110959-xr2mm7mhtt7r9s32.png';
 		// If this marker is selected we should make it lighter than the rest.
 		if (this.is_selected == true) {
-			this.markerColor = '20200319-110905-vo88ewef3rsfriws.png';
+			this.markerColor = '20200319-110951-8mftdhob5fe4ub9h.png';
 		}
 
 		// If we have not seen a recent update, change color
 		if (this.seen > 15) {
-			this.markerColor = '20200319-110918-mnwtkh7wmgpfeo5f.png';
+			this.markerColor = '20200319-110934-hvfg1zzflennvarp.png';
 		}
 
 		// If the squawk code is one of the international emergency codes,
